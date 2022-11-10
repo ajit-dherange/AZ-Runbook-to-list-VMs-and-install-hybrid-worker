@@ -26,6 +26,7 @@ $ $vm.HardwareProfile.VmSize = "Standard_B2s"
 $ Stop-AzVM -ResourceGroupName "myResourceGroup" -Name "myVM01"
 
 6. Create Automation account (Home > Automation Accounts > Create > Select Resource Group Name "myResourceGroup" & provide Automation account Name "autouser01"> Review + Create)
+
 Note: you can repeat steps 2 and 3 for creating more VMs (don't forget to change VM names)
 
 # Create Runbook ....
@@ -46,6 +47,7 @@ The runbook that you've created is still in Draft mode. You must publish it befo
 Select Publish to publish the runbook and then Yes when prompted.
 
 Note: 1) Now your runbook is ready, you can open and run it anytime, if you want you can shedule job to run it.
+
       2) Don't forget to delete all resources if your testing the runbook
 
 # II. Using Azure ID
